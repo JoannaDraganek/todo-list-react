@@ -5,22 +5,23 @@
 }
 
 .tasks__content {
+    max-height: 30px;
+    padding: 0px;
     margin: auto;
     border-bottom: none;
-    list-style: none
+    list-style: none;
 }
 
-@media (max-width: 767px) {
-    .tasks__content {
-        grid-template-columns: 1fr ;
-    }
-}
 
 .task__item {
     list-style: none;
+    border-bottom: none;
+    list-style: none;
     display: grid;
-    grid-template-columns: auto 1fr auto;
-    grid-gap: 10px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 10px;
+    grid-row-gap: 0px;
 }
 
 .task__item--hidden {
@@ -38,9 +39,10 @@
     color: white;
     align-items: center;
     justify-content: center;
+    flex-wrap: nowrap;
     font-size: 15px;
     padding: 20px;
-    margin: auto;
+    margin: 10px 10px auto auto;
     border: none;
 }
 
