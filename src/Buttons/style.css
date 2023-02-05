@@ -1,0 +1,36 @@
+.buttons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+}
+
+@media (max-width: 767px) {
+    .buttons {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 3fr;
+        grid-column-gap: 11px;
+        grid-row-gap: 0px;
+    }
+}
+
+.buttons__button {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    background-color: transparent;
+    max-width: 200px;
+    padding: 10px;
+    border: none;
+    color: rgb(2, 2, 136);
+    text-align: center;
+    transition: 1s;
+}
+
+.buttons__button:hover {
+    color: rgb(14, 97, 250);
+}
+
+.buttons__button:disabled {
+    color: hsl(0, 0%, 80%)
+}
