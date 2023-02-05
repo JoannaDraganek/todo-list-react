@@ -14,6 +14,8 @@ When you click on red bin button you can remove your task.
 
 ![to-do list gif](https://i.imgur.com/FiMlhTx.gif)
 
+## Demo
+https://joannadraganek.github.io/todo-list-react/
 
 ## Available Scripts
 
