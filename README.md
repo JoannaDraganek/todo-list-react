@@ -17,6 +17,9 @@ When you click on red bin button you can remove your task.
 ## Demo
 https://joannadraganek.github.io/todo-list-react/
 
+## Technologies used
+In the project I used the BEM convention and ES6+ features.
+
 ## Available Scripts
 
 In the project directory, you can run:
