@@ -39,7 +39,7 @@ function App() {
   };
 
   const addNewTask = (content) => {
-    setTasks(tasks => [
+    content.trim() !== '' && setTasks(tasks => [
       ...tasks,
       {
         content,
